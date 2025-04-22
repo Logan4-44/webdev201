@@ -1,0 +1,81 @@
+img{
+    width: 500px;
+    height: 320px;
+}
+
+.header{
+    font-size: 3rem;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    color: whitesmoke;
+    text-align: center;
+  }
+
+  .main{
+    max-width: 1200px;
+    margin: auto;
+    padding: 2rem;
+    color: whitesmoke;
+  }
+
+  body{
+    background-color: black;
+    text-align: center;
+  }
+
+  .coolfont{
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 25px;
+    color: white;
+  }
+  
+
+  .top{
+    text-align: center;
+ padding-left: 50px;
+ padding-right: 50px;
+  }
+
+  ul {
+    list-style: none;
+    padding: 0;
+    text-align: center;
+  }
+  
+  ul li::before {
+    content: "• "; /* You can change this to "-" or even an emoji */
+    color: #ffffff; /* Optional: make the bullet a bold color */
+    font-weight: bold;
+  }
+  ol {
+    list-style: none;
+    padding: 0;
+    text-align: center;
+  }
+  
+  ol li::before {
+    content: counter(item) ". ";
+    counter-increment: item;
+    font-weight: bold;
+  }
+  
+  ol {
+    counter-reset: item;
+  }
+  
+  .text-box {
+    border: 2px solid #be33ff;     /* red border */
+    padding: 1rem;                 /* space inside the box */
+    margin: 2rem auto;             /* space outside the box, center horizontally */
+    width: fit-content;           /* box wraps around content */
+    background-color: #111;       /* optional background */
+    color: #fff;                  /* text color */
+    border-radius: 10px;          /* rounded corners */
+    font-size: 1.2rem;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.5); /* optional shadow for depth */
+  }
+  
+  
+  
+  
+  
